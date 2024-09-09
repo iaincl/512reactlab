@@ -1,0 +1,88 @@
+.weather-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    width: 320px;  /* Adjusted width to fit better */
+    height: 180px; /* Reduced height slightly */
+    border-radius: 20px; /* Slightly reduced radius */
+    padding: 15px; /* Reduced padding */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
+
+  .dress-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    width: 320px;  
+    height: 180px; /* Reduced height slightly */
+    border-radius: 20px; /* Slightly reduced radius */
+    padding: 15px; /* Reduced padding */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+  }
+
+
+  .umbrella-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightyellow;
+    width: 320px;  
+    height: 160px; /* Reduced height slightly */
+    border-radius: 20px; /* Slightly reduced radius */
+    padding: 15px; /* Reduced padding */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .date {
+    font-size: 16px;  /* Reduced font size */
+    font-weight: 500;
+  }
+  
+  .time {
+    font-size: 14px;  /* Added time styling */
+    opacity: 0.8;
+  }
+  
+  .location {
+    font-size: 12px;  /* Reduced font size */
+    margin-top: 3px;
+    opacity: 0.8;
+  }
+  
+  .temperature-section {
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;  /* Reduced margin */
+  }
+  
+  .temperature {
+    font-size: 50px;  /* Reduced temperature font size */
+    font-weight: bold;
+  }
+  
+  .celsius {
+    font-size: 18px;  /* Reduced font size for °C */
+    margin-left: 3px;
+  }
+  
+  .weather-status {
+    font-size: 14px;  /* Reduced font size for status */
+    margin-top: 5px;   /* Reduced margin */
+  }
+  
+  .weather-icon {
+    width: 70px;  /* Adjusted icon size */
+    height: 70px;
+  }
+  
