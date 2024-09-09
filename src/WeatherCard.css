@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1e1e1e;
-    width: 320px;  /* Adjusted width to fit better */
-    height: 180px; /* Reduced height slightly */
-    border-radius: 20px; /* Slightly reduced radius */
-    padding: 15px; /* Reduced padding */
+    width: 320px;   
+    height: 180px; 
+    border-radius: 20px;  
+    padding: 15px; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: white;
   }
@@ -18,9 +18,9 @@
     align-items: center;
     background-color: lightblue;
     width: 320px;  
-    height: 180px; /* Reduced height slightly */
-    border-radius: 20px; /* Slightly reduced radius */
-    padding: 15px; /* Reduced padding */
+    height: 180px;  
+    border-radius: 20px;  
+    padding: 15px;  
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: black;
   }
@@ -32,9 +32,9 @@
     align-items: center;
     background-color: lightyellow;
     width: 320px;  
-    height: 160px; /* Reduced height slightly */
-    border-radius: 20px; /* Slightly reduced radius */
-    padding: 15px; /* Reduced padding */
+    height: 160px;  
+    border-radius: 20px;  
+    padding: 15px; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     color: black;
   }
@@ -45,17 +45,17 @@
   }
   
   .date {
-    font-size: 16px;  /* Reduced font size */
+    font-size: 16px;  
     font-weight: 500;
   }
   
   .time {
-    font-size: 14px;  /* Added time styling */
+    font-size: 14px;  
     opacity: 0.8;
   }
   
   .location {
-    font-size: 12px;  /* Reduced font size */
+    font-size: 12px;  
     margin-top: 3px;
     opacity: 0.8;
   }
@@ -63,26 +63,26 @@
   .temperature-section {
     display: flex;
     align-items: baseline;
-    margin-top: 10px;  /* Reduced margin */
+    margin-top: 10px;  
   }
   
   .temperature {
-    font-size: 50px;  /* Reduced temperature font size */
+    font-size: 50px;  
     font-weight: bold;
   }
   
   .celsius {
-    font-size: 18px;  /* Reduced font size for °C */
+    font-size: 18px;   
     margin-left: 3px;
   }
   
   .weather-status {
-    font-size: 14px;  /* Reduced font size for status */
-    margin-top: 5px;   /* Reduced margin */
+    font-size: 14px;  
+    margin-top: 5px;    
   }
   
   .weather-icon {
-    width: 70px;  /* Adjusted icon size */
+    width: 70px;  
     height: 70px;
   }
   

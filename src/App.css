@@ -14,13 +14,13 @@ body {
 }
 
 .app-container {
-  width: 375px;  /* iPhone width */
-  height: 667px; /* iPhone height */
+  width: 375px;   
+  height: 667px; 
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   background-color: white;
-  position: relative;  /* Ensure that the status bar is relative to this container */
+  position: relative;   
   padding: 20px;
 }
 
@@ -50,7 +50,7 @@ body {
   margin-right: 5px;
 }
 
-/* Ensuring WeatherCard is centered */
+
 .weather-card {
   margin-top: 50px;
 }
